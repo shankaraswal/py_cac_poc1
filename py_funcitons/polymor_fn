@@ -1,0 +1,13 @@
+def multiplyStringNums(p1, p2):
+    return p1 * p2
+    
+result1 = multiplyStringNums(22, "h")
+result2 = multiplyStringNums(1178, 4511)
+result3 = multiplyStringNums("f", 12)
+    
+
+print (result1)
+print (result2)
+print (result3)
+    
+    
