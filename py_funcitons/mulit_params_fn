@@ -1,0 +1,7 @@
+def squarePower(n,p):
+    return n**p
+
+
+result = squarePower(20, 20)
+
+print(result)
