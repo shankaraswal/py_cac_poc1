@@ -1,0 +1,10 @@
+Using iterators with files in Python is a common practice for reading data efficiently, especially for large files. Python provides built-in support for iterating over lines in a file, which allows you to process each line one at a time without loading the entire file into memory.
+
+Basic File Iteration
+When you open a file using the open() function, you can iterate over it directly, line by line, using a for loop. Here’s a simple example:
+
+
+Explanation:
+Opening the File: Use open('example.txt', 'r') to open the file in read mode. The with statement ensures the file is properly closed after its suite finishes.
+Iterating Over Lines: The file object is an iterator that yields each line in the file. The for loop reads each line one by one.
+Processing Each Line: The strip() method removes any leading or trailing whitespace (including the newline character) from each line before printing it.
